@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Charset e compatibilidade -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon (ícone da guia) -->
+    <link rel="icon" href="../assets/img/icones/bufalo.svg" />
+
+    <!-- Ícones Unicons (tema escuro / setas) -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- CSS principal (../ porque estamos dentro de /pages) -->
+    <link rel="stylesheet" href="../assets/styles.css" />
+
+    <title>WildBeast</title>
+  </head>
+  <body class="structure">
+    <!-- ============================= HEADER ============================= -->
+    <header class="header" id="inicio">
+      <!-- Logo volta para a raiz do site -->
+      <a href="../" class="logo">
+        <img src="../assets/img/wildbeast.svg" alt="WildBeast" />
+      </a>
+
+      <!-- Navegação do topo (estática) -->
+      <nav>
+        <ul>
+          <li class="nav_btns">
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+          </li>
+          <li><a href="#">sobre</a></li>
+          <li><a href="#">animais</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ============================= SIDENAV ============================= -->
+    <!-- Menu lateral com ícones. Importante: links entre irmãs SEM "pages/". -->
+    <nav class="sidenav">
+      <ul>
+        <li><a href="../"><img src="../assets/img/icones/cervo.svg" alt="Cervo" /></a></li>
+        <li><a href="lion.html"><img src="../assets/img/icones/leao.svg" alt="Leão" /></a></li>
+        <li><a href="cat.html"><img src="../assets/img/icones/gato.svg" alt="Gato" /></a></li>
+        <li><a href="buffalo.html" class="link_active"><img src="../assets/img/icones/bufalo.svg" alt="Búfalo" /></a></li>
+        <li><a href="sheep.html"><img src="../assets/img/icones/ovelha.svg" alt="Ovelha" /></a></li>
+        <li><a href="bee.html"><img src="../assets/img/icones/abelha.svg" alt="Abelha" /></a></li>
+      </ul>
+    </nav>
+
+    <!-- ============================= MAIN ============================= -->
+    <main class="content">
+      <!-- Título -->
+      <div class="title">
+        <h1>Bubalus bubalis</h1>
+        <span>da família Bovidae</span>
+      </div>
+
+      <!-- Características (peso/idade – valores ilustrativos) -->
+      <div class="characteristics">
+        <div><span class="number">1200</span><span class="label">kg</span></div>
+        <div><span class="number">25</span><span class="label">age</span></div>
+      </div>
+
+      <!-- Texto principal (col-wide ocupa duas colunas no grid) -->
+      <p class="col-wide">
+        O búfalo é um grande herbívoro encontrado em regiões da Ásia, África e América,
+        conhecido pela força, resistência e capacidade de adaptação a diferentes ambientes.
+      </p>
+
+      <!-- Imagens (subpasta ../assets/img/Buffalo/) -->
+      <img class="image1" src="../assets/img/Buffalo/image1.jpg" alt="Búfalo em habitat" />
+
+      <p class="emphasis">
+        Sua dieta é composta principalmente por gramíneas e plantas aquáticas, sendo um
+        importante animal para atividades agropecuárias em várias regiões.
+      </p>
+
+      <img class="image2" src="../assets/img/Buffalo/image2.jpg" alt="Búfalo de perfil" />
+
+      <p>
+        Em algumas culturas, o búfalo é essencial para tração, produção de leite e carne.
+        Existem diferentes linhagens adaptadas a ambientes específicos, como áreas alagadas.
+      </p>
+
+      <img class="image3 col-wide" src="../assets/img/Buffalo/image3.jpg" alt="Rebanho de búfalos" />
+    </main>
+
+    <!-- ============================= ADS ============================= -->
+    <aside class="ads">
+      <div class="adv-item"><img src="../assets/img/anuncio-1.jpg" alt="Anúncio 1" /></div>
+      <div class="adv-item"><img src="../assets/img/anuncio-2.jpg" alt="Anúncio 2" /></div>
+    </aside>
+
+    <!-- ============================= FOOTER ============================= -->
+    <footer class="footer">
+      <p>
+        <a href="https://github.com/ExpeditoZ/WildBeast-HTMLCSSGridLayout">Expedito Farias</a>
+        © 2025
+      </p>
+    </footer>
+
+    <!-- Botão subir -->
+    <a href="#inicio" class="scrollUp" id="scroll-up">
+      <i class="uil uil-arrow-up scrollUp_icon"></i>
+    </a>
+
+    <!-- Script principal -->
+    <script src="../assets/main.js"></script>
+  </body>
+</html>

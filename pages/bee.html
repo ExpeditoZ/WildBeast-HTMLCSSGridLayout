@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Configuração básica de charset e compatibilidade -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Torna o layout responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ícone da aba do navegador (favicon) -->
+    <!-- Caminho relativo: volta 1 pasta (../) → entra em assets → img → icones -->
+    <link rel="icon" href="../assets/img/icones/abelha.svg" />
+
+    <!-- Ícones externos Unicons (usados no tema escuro e setas) -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Arquivo principal de estilos do projeto -->
+    <!-- ../ pois estamos dentro da pasta /pages -->
+    <link rel="stylesheet" href="../assets/styles.css" />
+
+    <title>WildBeast</title>
+  </head>
+
+  <body class="structure">
+    <!-- ============================= HEADER ============================= -->
+
+    <!-- Cabeçalho do site -->
+    <header class="header" id="inicio">
+      <!-- Logo do site, volta 1 pasta (../) para acessar o index -->
+      <a href="../" class="logo">
+        <img src="../assets/img/wildbeast.svg" alt="WildBeast" />
+      </a>
+
+      <!-- Menu principal no topo -->
+      <nav>
+        <ul>
+          <li class="nav_btns">
+            <!-- Botão de trocar tema (claro/escuro) -->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+          </li>
+
+          <!-- Itens apenas decorativos -->
+          <li><a href="#">sobre</a></li>
+          <li><a href="#">animais</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ============================= SIDENAV ============================= -->
+
+    <!-- Menu lateral fixo com ícones dos animais -->
+    <nav class="sidenav">
+      <ul>
+
+        <!-- Volta para o index (pasta raiz) -->
+        <li>
+          <a href="../">
+            <img src="../assets/img/icones/cervo.svg" alt="Cervo" />
+          </a>
+        </li>
+
+        <!-- Navega dentro da pasta atual (pages/) -->
+        <!-- OBS: não use "pages/lion.html", pois já estamos dentro de /pages -->
+        <li>
+          <a href="lion.html">
+            <img src="../assets/img/icones/leao.svg" alt="Leão" />
+          </a>
+        </li>
+
+        <li>
+          <a href="cat.html">
+            <img src="../assets/img/icones/gato.svg" alt="Gato" />
+          </a>
+        </li>
+
+        <li>
+          <a href="buffalo.html">
+            <img src="../assets/img/icones/bufalo.svg" alt="Bufalo" />
+          </a>
+        </li>
+
+        <li>
+          <a href="sheep.html">
+            <img src="../assets/img/icones/ovelha.svg" alt="Ovelha" />
+          </a>
+        </li>
+
+        <!-- Página atual: ADD class="link_active" -->
+        <li>
+          <a href="bee.html" class="link_active">
+            <img src="../assets/img/icones/abelha.svg" alt="Abelha" />
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!-- ============================= MAIN CONTENT ============================= -->
+
+    <main class="content">
+
+      <!-- Título e subtítulo -->
+      <div class="title">
+        <h1>Anthophila</h1>
+        <span>da Superfamília Apoidea</span>
+      </div>
+
+      <!-- Blocos de características -->
+      <div class="characteristics">
+        <div>
+          <span class="number">74</span>
+          <span class="label">mg</span>
+        </div>
+
+        <div>
+          <span class="number">2</span>
+          <span class="label">age</span>
+        </div>
+      </div>
+
+      <!-- Parágrafo principal (ocupando 2 colunas) -->
+      <p class="col-wide">
+        Abelhas (Anthophila) são insetos voadores, conhecidos pelo seu importante
+        papel na polinização. A abelha rainha vive até dois anos, enquanto as
+        operárias não duram mais que um mês e meio. Uma abelha campeira visita
+        10 flores por minuto em busca do pólen e do néctar.
+      </p>
+
+      <!-- Imagem 1 -->
+      <!-- Caminho: volta 1 pasta (../) → assets → img → Bee -->
+      <img class="image1" src="../assets/img/Bee/image1.jpg" />
+
+      <!-- Texto de destaque -->
+      <p class="emphasis">
+        A maior parte das espécies de abelhas são solitárias, não fabricam mel
+        nem constroem colmeias; todas têm, no entanto, um papel muito importante
+        na polinização.
+      </p>
+
+      <!-- Imagem 2 -->
+      <img class="image2" src="../assets/img/Bee/image2.jpg" />
+
+      <p>
+        O representante mais conhecido é a Apis mellifera, oriunda do Velho
+        Mundo, criada em larga escala para a produção de mel, própolis, geleia
+        real e veneno.
+      </p>
+
+      <p>
+        Elas são encontradas em todos os continentes, exceto a Antártida.
+      </p>
+
+      <!-- Citação -->
+      <blockquote class="quote col-wide">
+        <p>
+          "Se as abelhas desaparecessem da superfície da Terra, a humanidade não
+          teria mais do que quatro anos de vida.”
+        </p>
+      </blockquote>
+
+      <!-- Lista de atributos do animal -->
+      <ul class="atributes">
+        <li>Estado de conservação: <span class="red">❗ PREOCUPANTE ⚠️</span></li>
+        <li>Reino: Animalia</li>
+        <li>Filo: Arthropoda</li>
+        <li>Classe: Insecta</li>
+        <li>Ordem: Hymenoptera</li>
+        <li>Idade Média: 45 dias</li>
+      </ul>
+
+      <!-- Informações complementares -->
+      <div class="info">
+        <p>
+          A maioria do pólen é usado como alimento para as larvas.
+        </p>
+        <p>
+          Os fósseis mais antigos foram encontrados em âmbar.
+        </p>
+      </div>
+
+      <!-- Imagem final grande -->
+      <img class="image3 col-wide" src="../assets/img/Bee/image3.jpg" />
+
+    </main>
+
+    <!-- ============================= ADS ============================= -->
+
+    <!-- Banners laterais -->
+    <aside class="ads">
+      <div class="adv-item">
+        <img src="../assets/img/anuncio-1.jpg" alt="Anuncio 1" />
+      </div>
+
+      <div class="adv-item">
+        <img src="../assets/img/anuncio-2.jpg" alt="Anuncio 2" />
+      </div>
+    </aside>
+
+    <!-- ============================= FOOTER ============================= -->
+
+    <footer class="footer">
+      <p>
+        <a href="https://github.com/ExpeditoZ/WildBeast-HTMLCSSGridLayout">
+          Expedito Farias
+        </a>
+        © 2025 <br />
+        Thanks to <a href="https://www.origamid.com/">Origamid</a>
+      </p>
+    </footer>
+
+    <!-- Botão de voltar ao topo -->
+    <a href="#inicio" class="scrollUp" id="scroll-up">
+      <i class="uil uil-arrow-up scrollUp_icon"></i>
+    </a>
+
+    <!-- Script principal -->
+    <script src="../assets/main.js"></script>
+  </body>
+</html>
