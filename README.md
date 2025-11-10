@@ -9,7 +9,7 @@ A proposta é entregar um layout limpo, elegante e adaptável a diferentes taman
 ## 🌐 Deploy
 
 Acesse o projeto online em:  
-👉 **https://expeditoz.github.io/cardapio_online/**
+👉 **https://expeditoz.github.io/cardapio_online/](https://expeditoz.github.io/WildBeast-HTMLCSSGridLayout/**
 
 ---
 
