@@ -3,6 +3,12 @@
 
 Este projeto apresenta uma página institucional moderna e responsiva, com foco em HTML semântico, organização visual utilizando CSS Grid e Flexbox, além de pequenas interações em JavaScript.  
 A proposta é entregar um layout limpo, elegante e adaptável a diferentes tamanhos de tela.
+---
+
+## 🌐 Deploy
+
+Acesse o projeto online em:  
+👉 **https://expeditoz.github.io/cardapio_online/**
 
 ---
 
